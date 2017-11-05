@@ -26,29 +26,36 @@
 
     <EditText
         android:id="@+id/accountEditText"
-        android:layout_width="300dp"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
         android:layout_marginRight="30dp"
         android:layout_marginTop="25dp"
-        android:ems="9"
+        android:ems="12"
+        android:gravity="center"
         android:inputType="numberDecimal"
+        android:maxLength="12"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+        android:textAlignment="center"
         android:textSize="16sp" />
 
     <TextView
         android:id="@+id/accountTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tipTextView"
+        android:layout_alignStart="@+id/tipTextView"
         android:layout_below="@+id/logo"
-        android:layout_centerHorizontal="true"
         android:background="@drawable/rachunek"
         android:gravity="center"
         android:paddingEnd="5dp"
         android:paddingStart="5dp"
         android:textColor="@color/textColor"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:visibility="visible" />
 
     <ImageView
         android:id="@+id/precentImage"
