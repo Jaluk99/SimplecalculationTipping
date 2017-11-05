@@ -8,9 +8,16 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
+
 import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
+
 
     private EditText accountEditText;
     private TextView accountTextView;

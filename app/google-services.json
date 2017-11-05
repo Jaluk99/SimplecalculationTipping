@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "204015632302",
+    "firebase_url": "https://simple-calculation-tipping.firebaseio.com",
+    "project_id": "simple-calculation-tipping",
+    "storage_bucket": "simple-calculation-tipping.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204015632302:android:812f24f8635957c3",
+        "android_client_info": {
+          "package_name": "pl.jlukas.simplecalculationtipping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204015632302-8f5cb77ih72bvu3l9qhed0q6sm8u1pjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY6FOkSEVB_8kxAgfm6zfPHcLdBC18SQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
