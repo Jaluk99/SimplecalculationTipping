@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    tools:context="pl.jlukas.simplecalculationtipping.MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background" android:contentDescription="@string/background" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/logo" android:contentDescription="@string/logo" />
+
+    <EditText
+        android:id="@+id/accountEditText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="25dp"
+        android:ems="9"
+        android:inputType="numberDecimal"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/accountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rachunek"
+        android:gravity="center"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/precentImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/accountTextView"
+        android:layout_alignStart="@+id/accountTextView"
+        android:layout_below="@+id/accountTextView"
+        android:contentDescription="@string/precent_iamge"
+        app:srcCompat="@drawable/procent" />
+
+    <TextView
+        android:id="@+id/precentTextView"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/precentImage"
+        android:layout_below="@+id/accountTextView"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/precent_amount"
+        android:textColor="@color/textColor"
+        android:textSize="28sp" />
+
+    <SeekBar
+        android:id="@+id/precentSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/accountTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="35dp"
+        android:max="30"
+        android:minWidth="200dp"
+        android:progress="15" android:layout_marginEnd="40dp" android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/precentImage"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/napiwek"
+        android:gravity="center"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/amountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tipTextView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/suma"
+        android:gravity="center"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/textColor"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/inputNumber"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/logo"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/input" android:contentDescription="@string/input_number" />
+
+</RelativeLayout>

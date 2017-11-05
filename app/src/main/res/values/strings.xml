@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Simple calculation Tipping</string>
+    <string name="precent_amount" translatable="false">15%</string>
+    <string name="logo" translatable="false">logo</string>
+    <string name="background" translatable="false">background</string>
+    <string name="input_number">Dialpad</string>
+    <string name="precent_iamge" translatable="false">Precent Image</string>
+</resources>
